@@ -3,7 +3,7 @@ ARG DEBIAN_FRONTEND=noninteractive
 
 WORKDIR /
 
-RUN apt update -y && apt upgrade -y && apt install unrar
+RUN apt update -y && apt upgrade -y && apt install unrar nano
 
 COPY . /aion/
 
